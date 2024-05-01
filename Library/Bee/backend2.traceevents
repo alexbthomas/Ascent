@@ -1,0 +1,346 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714533568021486, "dur":8439, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568029933, "dur":1030, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568031016, "dur":577, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568031637, "dur":4527, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568036165, "dur":130730, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568166896, "dur":252, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568167349, "dur":1734, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714533568031576, "dur":4613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568036193, "dur":1078, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568037272, "dur":3804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568041076, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714533568041238, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568047015, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714533568048578, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714533568050122, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714533568051593, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568052066, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568055238, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568057666, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568057745, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568061434, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568061514, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568064872, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568065001, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568068584, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568069163, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568072957, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568073072, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568076576, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568080459, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568084445, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714533568084518, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714533568089468, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1714533568094605, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1714533568098313, "dur":68583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714533568031532, "dur":4641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714533568036176, "dur":4874, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714533568042063, "dur":538, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1714533568042604, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714533568042708, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1714533568042791, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1714533568043050, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568043135, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568043295, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568043586, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\ConeMeshAssembly.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568043717, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568044117, "dur":491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568044609, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568044731, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\alexb\\Ascent\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714533568042603, "dur":2562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714533568046117, "dur":114594, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714533568165502, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714533568165502, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/Ascent_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1714533568165632, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1714533568031570, "dur":4610, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568036183, "dur":935, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568037118, "dur":3946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568041065, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1714533568043285, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1714533568046731, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1714533568046823, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568047124, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1714533568050009, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568050007, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568050636, "dur":7587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568058315, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568058405, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568062166, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568062244, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568065764, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568069777, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568073611, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568077150, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714533568077223, "dur":3648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568080973, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568085335, "dur":4028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714533568089435, "dur":6774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1714533568096282, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1714533568099684, "dur":67235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568031606, "dur":4592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568036201, "dur":1210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568037412, "dur":3667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568041092, "dur":316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714533568041079, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714533568047218, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714533568050536, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/Ascent_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1714533568050639, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568051405, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1714533568055117, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568056849, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568057036, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568060443, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568060546, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568063834, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568063901, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568067501, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568067599, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568071705, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568075438, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568079542, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568083539, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714533568083676, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714533568087803, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714533568089946, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1714533568093667, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1714533568096626, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1714533568100221, "dur":66695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568031903, "dur":4388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568036291, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568041079, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714533568041062, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714533568041257, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568044420, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714533568046558, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1714533568046557, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1714533568046655, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568047129, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1714533568054494, "dur":154, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568051043, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568054873, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568055042, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568056806, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568059628, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568059739, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568063339, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568063411, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568066770, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568070811, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568070878, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568074719, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568074840, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568078542, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568078645, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568082784, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714533568083064, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714533568086706, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1714533568088684, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1714533568091020, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1714533568092315, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1714533568096694, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1714533568100675, "dur":66224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568031670, "dur":4549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568036223, "dur":1256, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568037479, "dur":3581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568041063, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1714533568041230, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568042931, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1714533568046414, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1714533568047059, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1714533568050876, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568054574, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568051486, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568055221, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568057219, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568057325, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568060472, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568064275, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568068118, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568068196, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568073230, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568076796, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568076897, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568080623, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568080723, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568084937, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714533568085026, "dur":4188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714533568089309, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714533568091214, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714533568095227, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1714533568098791, "dur":68107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568031708, "dur":4520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568036232, "dur":1031, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568037264, "dur":3803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568041074, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568041067, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568041253, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568045040, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568047134, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568047133, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568047648, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714533568050236, "dur":12811, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714533568050235, "dur":12814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/Ascent.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714533568063067, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714533568064497, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568068372, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568068435, "dur":4232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568072724, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568072800, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568076282, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568080069, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568084069, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714533568084158, "dur":4768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714533568089019, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714533568091898, "dur":3938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1714533568095936, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714533568099385, "dur":67508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568031749, "dur":4491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568036244, "dur":976, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568037221, "dur":3848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568041069, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714533568043108, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714533568047136, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714533568047319, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568047737, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714533568051984, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568056303, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568058729, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568059048, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568062256, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568065976, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568070157, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568070230, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568074223, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568077967, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568078038, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568081797, "dur":3899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714533568085762, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1714533568088343, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1714533568090331, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714533568090415, "dur":4637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1714533568095263, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1714533568098682, "dur":68219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568031785, "dur":4465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568036254, "dur":1017, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568037271, "dur":3803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568041074, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1714533568041231, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568044705, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1714533568047056, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1714533568047308, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568048296, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1714533568050847, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568051382, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568056887, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568057039, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568060143, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568060211, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568063870, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568067411, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568067487, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568071465, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568071538, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568075390, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568079202, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568079279, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568083302, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714533568083384, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714533568087133, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1714533568089448, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1714533568093963, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level4.resS" }}
+,{ "pid":12345, "tid":9, "ts":1714533568097515, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1714533568100352, "dur":66561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568031828, "dur":4436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568036269, "dur":617, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568036887, "dur":4167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568041069, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568048004, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1714533568049917, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568049915, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568050613, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568053128, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568053420, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568056410, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568060272, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568060365, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568060441, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568064088, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568064155, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568067809, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568067907, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568072101, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568072172, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568075915, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568076018, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568079697, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568079769, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568083723, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714533568083837, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714533568087451, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":10, "ts":1714533568089620, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1714533568094010, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level4" }}
+,{ "pid":12345, "tid":10, "ts":1714533568098324, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1714533568100288, "dur":66638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568031861, "dur":4417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568036279, "dur":4777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568041077, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1714533568041062, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1714533568041247, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568043672, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1714533568047358, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1714533568047356, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1714533568047498, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568047736, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1714533568051449, "dur":5386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568056882, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568057044, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568060312, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/ConeMeshAssembly.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568063385, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568063457, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568066936, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568067034, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568070887, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568071030, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568074804, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568074891, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568078830, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568082893, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714533568083071, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714533568087062, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1714533568089767, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1714533568094222, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1714533568096580, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1714533568099615, "dur":67299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568031636, "dur":4573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568036214, "dur":1056, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568037270, "dur":3801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568041086, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1714533568041072, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1714533568041276, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568045566, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1714533568047628, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1714533568047861, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1714533568051090, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568054467, "dur":144, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568051466, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568055504, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568055698, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568058034, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568058189, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568061952, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568062104, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568065746, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568069960, "dur":4129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568074148, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568074219, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568077672, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568077764, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568081395, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714533568081523, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/Ascent_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568085307, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568085306, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexb/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568085469, "dur":15018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexb/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714533568100523, "dur":66381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714533568171469, "dur":948, "ph":"X", "name": "ProfilerWriteOutput" }
+,
