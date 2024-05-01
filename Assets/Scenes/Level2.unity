@@ -2499,9 +2499,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701321972}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2622,7 +2622,7 @@ MonoBehaviour:
   movementSpeed: 5
   sprintSpeed: 10
   crouchSpeed: 2.5
-  jumpForce: 5
+  jumpForce: 55
   standHeight: 2
   crouchHeight: 1
   enemyLayer:
